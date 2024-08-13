@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>学生管理系统</title>
+      <link href="/2024/08/13/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3/"/>
+      <url>/2024/08/13/%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="学生管理系统"><a href="#学生管理系统" class="headerlink" title="学生管理系统"></a>学生管理系统</h2><h3 id="需求："><a href="#需求：" class="headerlink" title="需求："></a>需求：</h3><p>​采取控制台的方式去书写学生管理系统。</p><h3 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h3><h4 id="初始菜单："><a href="#初始菜单：" class="headerlink" title="初始菜单："></a>初始菜单：</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;-------------欢迎来到黑马学生管理系统----------------&quot;</span></span><br><span class="line"><span class="string">&quot;1：添加学生&quot;</span></span><br><span class="line"><span class="string">&quot;2：删除学生&quot;</span></span><br><span class="line"><span class="string">&quot;3：修改学生&quot;</span></span><br><span class="line"><span class="string">&quot;4：查询学生&quot;</span></span><br><span class="line"><span class="string">&quot;5：退出&quot;</span></span><br><span class="line"><span class="string">&quot;请输入您的选择:&quot;</span></span><br></pre></td></tr></table></figure><h4 id="学生类："><a href="#学生类：" class="headerlink" title="学生类："></a>学生类：</h4><p>​属性：id、姓名、年龄、家庭住址</p><h4 id="添加功能："><a href="#添加功能：" class="headerlink" title="添加功能："></a>添加功能：</h4><p>​键盘录入每一个学生信息并添加，需要满足以下要求：</p><ul><li>id唯一</li></ul><h4 id="删除功能："><a href="#删除功能：" class="headerlink" title="删除功能："></a>删除功能：</h4><p>​键盘录入要删除的学生id，需要满足以下要求：</p><ul><li>id存在删除</li><li>id不存在，需要提示不存在，并回到初始菜单</li></ul><h4 id="修改功能："><a href="#修改功能：" class="headerlink" title="修改功能："></a>修改功能：</h4><p>​键盘录入要修改的学生id，需要满足以下要求</p><ul><li>id存在，继续录入其他信息</li><li>id不存在，需要提示不存在，并回到初始菜单</li></ul><h4 id="查询功能："><a href="#查询功能：" class="headerlink" title="查询功能："></a>查询功能：</h4><p>​打印所有的学生信息，需要满足以下要求</p><ul><li>如果没有学生信息，提示：当前无学生信息，请添加后再查询</li><li>如果有学生信息，需要按照以下格式输出。（不用过于纠结对齐的问题）</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">id姓名年龄家庭住址</span><br><span class="line">heima001张三<span class="number">23</span> 南京</span><br><span class="line">heima002李四<span class="number">24</span> 北京</span><br><span class="line">heima003王五<span class="number">25</span> 广州</span><br><span class="line">heima004赵六 <span class="number">26</span> 深圳</span><br></pre></td></tr></table></figure><p><img src="E:\Blog\CivetcatBlog\source_posts\学生管理系统业务结构分析.png" alt="学生管理系统业务结构分析"></p><p><img src="E:\Blog\CivetcatBlog\source_posts\添加学生对象图解.png" alt="添加学生对象图解"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>你好HEXO!你好xiaojiu~</title>
+      <link href="/2024/08/13/hello-world/"/>
+      <url>/2024/08/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
